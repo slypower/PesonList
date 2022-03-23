@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B62078627EA45F900DFBD28 /* PesonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PesonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B62078627EA45F900DFBD28 /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B62078927EA45F900DFBD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B62078B27EA45F900DFBD28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5B62079027EA45F900DFBD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5B62077D27EA45F900DFBD28 = {
 			isa = PBXGroup;
 			children = (
-				5B62078827EA45F900DFBD28 /* PesonList */,
+				5B62078827EA45F900DFBD28 /* PersonList */,
 				5B62078727EA45F900DFBD28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		5B62078727EA45F900DFBD28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B62078627EA45F900DFBD28 /* PesonList.app */,
+				5B62078627EA45F900DFBD28 /* PersonsList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B62078827EA45F900DFBD28 /* PesonList */ = {
+		5B62078827EA45F900DFBD28 /* PersonList */ = {
 			isa = PBXGroup;
 			children = (
 				5B62078927EA45F900DFBD28 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				5B62079727EA45FA00DFBD28 /* Info.plist */,
 				5B62079F27EA524600DFBD28 /* PersonListViewController.swift */,
 			);
-			path = PesonList;
+			path = PersonList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B62078527EA45F900DFBD28 /* PesonList */ = {
+		5B62078527EA45F900DFBD28 /* PersonsList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B62079A27EA45FA00DFBD28 /* Build configuration list for PBXNativeTarget "PesonList" */;
+			buildConfigurationList = 5B62079A27EA45FA00DFBD28 /* Build configuration list for PBXNativeTarget "PersonsList" */;
 			buildPhases = (
 				5B62078227EA45F900DFBD28 /* Sources */,
 				5B62078327EA45F900DFBD28 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PesonList;
+			name = PersonsList;
 			productName = PesonList;
-			productReference = 5B62078627EA45F900DFBD28 /* PesonList.app */;
+			productReference = 5B62078627EA45F900DFBD28 /* PersonsList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B62078127EA45F900DFBD28 /* Build configuration list for PBXProject "PesonList" */;
+			buildConfigurationList = 5B62078127EA45F900DFBD28 /* Build configuration list for PBXProject "PersonsList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B62078527EA45F900DFBD28 /* PesonList */,
+				5B62078527EA45F900DFBD28 /* PersonsList */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B62078127EA45F900DFBD28 /* Build configuration list for PBXProject "PesonList" */ = {
+		5B62078127EA45F900DFBD28 /* Build configuration list for PBXProject "PersonsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B62079827EA45FA00DFBD28 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B62079A27EA45FA00DFBD28 /* Build configuration list for PBXNativeTarget "PesonList" */ = {
+		5B62079A27EA45FA00DFBD28 /* Build configuration list for PBXNativeTarget "PersonsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B62079B27EA45FA00DFBD28 /* Debug */,
