@@ -38,6 +38,12 @@ extension Person {
             let person = Person(name: names[index], surname: surnames[index], email: emails[index], phone: phones[index])
             persons.append(person)
         }
+        
         return persons
     }
+}
+
+enum Contacts: String {
+    case phone = "phone"
+    case email = "tray"
 }
